@@ -18,7 +18,7 @@ function CanvasSection() {
         {/* Desktop Image - visible on medium screens and up */}
         <div className="hidden md:block" data-aos="fade-up">
           <Image
-            src="/assets/canvas.svg"
+            src="/assets/canvas.png"
             alt="Problem Definition"
             width={1440}
             height={600}
@@ -30,7 +30,7 @@ function CanvasSection() {
         {/* Mobile Image - visible on small screens only */}
         <div className="block md:hidden" data-aos="fade-up">
           <Image
-            src="/assets/canvas-mobile.svg"
+            src="/assets/canvas-mobile.png"
             alt="Problem Definition"
             width={1440}
             height={600}

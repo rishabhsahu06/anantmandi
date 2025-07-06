@@ -18,7 +18,7 @@ function Colors() {
         {/* Desktop Image - visible on medium screens and up */}
         <div className="hidden md:block" data-aos="fade-up">
           <Image
-            src="/assets/colors.svg"
+            src="/assets/colors.png"
             alt="Problem Definition"
             width={1440}
             height={600}
@@ -30,7 +30,7 @@ function Colors() {
         {/* Mobile Image - visible on small screens only */}
         <div className="block md:hidden" data-aos="fade-up">
           <Image
-            src="/assets/colors-mobile.svg"
+            src="/assets/colors-mobile.png"
             alt="Problem Definition"
             width={1440}
             height={600}
