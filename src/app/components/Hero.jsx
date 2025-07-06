@@ -18,7 +18,7 @@ function Hero() {
         {/* Desktop Image - visible on medium screens and up */}
         <div className="hidden md:block" data-aos="fade-up">
           <Image
-            src="/assets/hero.svg"
+            src="/assets/hero.png"
             alt="Problem Definition"
             width={1440}
             height={600}
@@ -30,7 +30,7 @@ function Hero() {
         {/* Mobile Image - visible on small screens only */}
         <div className="block md:hidden" data-aos="fade-up">
           <Image
-            src="/assets/hero-image.svg"
+            src="/assets/hero-image.png"
             alt="Problem Definition"
             width={1440}
             height={600}
