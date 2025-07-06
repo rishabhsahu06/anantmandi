@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+.container{
+  max-width: 1474px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -18,6 +24,7 @@
     --foreground: #ededed;
   }
 }
+
 
 body {
   background: var(--background);
