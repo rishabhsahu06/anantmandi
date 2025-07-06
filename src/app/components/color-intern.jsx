@@ -13,7 +13,7 @@ function ColorIntern() {
   }, []);
 
   return (
-    <div className="container mx-auto ">
+    <div className=" mx-auto ">
       <main className="mt-8">
         {/* Desktop Image - visible on medium screens and up */}
         <div className="hidden md:block" data-aos="fade-up">
